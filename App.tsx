@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area } from 'recharts';
-import DigitalGlobe from './DigitalGlobe';
+import DigitalGlobe from './components/DigitalGlobe';
 import ProcessingPipeline from './components/ProcessingPipeline';
 import IntelligenceCard from './components/IntelligenceCard';
 import { generateGlobalInsight } from './services/geminiService';
